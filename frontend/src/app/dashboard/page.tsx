@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { getMe, getChats, createChat, deleteChat, updateChat, sendAIMessage, addMessage, getChat, logout, exportChatPDF } from '@/lib/api';
+import { getMe, getChats, createChat, deleteChat, updateChat, sendAIMessage, addMessage, getChat, logout, exportChatPDF } from '../../lib/api';
 
 const TOPICS = [
   {icon:'🏛️',title:'Roman Empire',q:'Tell me about the rise and fall of the Roman Empire'},
