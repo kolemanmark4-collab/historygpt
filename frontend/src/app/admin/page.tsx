@@ -1,6 +1,6 @@
 'use client';
 import { useEffect, useState } from 'react';
-import { getAdminStats, getAdminUsers } from '../lib/api';
+import { getAdminStats, getAdminUsers } from '../../lib/api';
 export default function AdminPage() {
   const [stats, setStats] = useState<any>(null);
   const [users, setUsers] = useState<any[]>([]);
